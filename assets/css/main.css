@@ -1,0 +1,159 @@
+/* --------------------------------------
+ * Global Typography
+ *------------------------------------------*/
+
+#little_square {
+    width: 20px;
+    height: 20px;
+    margin-bottom: -0.25em;
+    padding-right: 1px;
+}
+
+* {
+    font-family: realist, sans-serif;
+    font-style: normal;
+    font-weight: 100;
+}
+
+p {
+    line-height: 1.7em;
+}
+
+b {
+    font-weight: 400;
+    color: #4172AF;
+}
+
+u:hover {
+    background-color: black;
+    color: white;
+}
+
+a {
+    color: black;
+}
+
+a:hover {
+    background-color: black;
+    color: white;
+}
+
+li {
+    padding-bottom: 10px;
+}
+
+#bold {
+    font-weight: 600;
+}
+
+/* --------------------------------------
+* Navbar
+*------------------------------------------*/
+
+.topnav {
+    display: flex;
+    justify-content: center;
+}
+
+.topnav a {
+    float: left;
+    background-color: white;
+    color: black;
+    text-align: center;
+    padding: 8px 10px;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.topnav a:hover {
+    background-color: black;
+    color: white;
+}
+
+.topnav a.active {
+    font-weight: 600;
+    background-color: black;
+    color: white;
+}
+
+/* --------------------------------------
+* Header
+*------------------------------------------*/
+
+.header {
+    padding-top: 50px;
+    padding-bottom: 60px;
+    padding-left: 260px;
+}
+
+#special_image {
+    border-radius: 8px;
+    width: 13%;
+}
+
+/* --------------------------------------
+* My Biography
+*------------------------------------------*/
+
+.text {
+    font-size: 17px;
+    padding-right: 270px;
+    padding-left: 260px;
+}
+
+.home {
+    padding-bottom: 40px;
+}
+
+.experience {
+    padding-top: 40px;
+}
+
+.events {
+    padding-top: 40px;
+}
+
+.skills {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+#title {
+    font-weight: 600;
+    font-size: 20px;
+}
+
+
+/* --------------------------------------
+* Footer
+*------------------------------------------*/
+
+.footer {
+    font-size: 14px;
+    text-align: center;
+    padding-bottom: 15px;
+}
+
+
+/* ---------------------------------
+           RESPONSIVE
+------------------------------------*/
+
+@media (max-width: 768px) {
+    .text {
+        padding: 10px;
+    }
+
+    .topnav a {
+        padding-right: 8px;
+        font-size: 15px;
+    }
+
+    .header {
+        padding: 30px 10px 10px;
+    }
+
+    img {
+        width: 20%;
+    }
+}
